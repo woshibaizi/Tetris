@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\Demo.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="main.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\Demo.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\small.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\Start.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\Rock.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\Brick.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\HELP--.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\标题.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\背景.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\OPEN.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\STUDY.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\BIAOTI.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\Start--.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\BACKGROUND2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\BACK22.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\屏幕截图 2025-01-04 172431.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\continue.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\restart.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\back头.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\END.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\解说.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\SHEZHI.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\SLOW.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\MEDIUM.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\FAST.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\BEILV1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\BEILV10.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\BEILV101.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\100.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\设置.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\BEIJING.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\微信图片_20250105232230.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\屏幕截图 2025-01-05 234832.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\perfect.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\great.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\REGRETFUL.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\微信图片_20250106075512.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\微信图片_20250106080503.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\微信图片_20250106075522.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\微信图片_20250106082757.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\福宝.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\屏幕截图 2025-01-06 193515.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\Rock12.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\帮助界面.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\BACK.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\屏幕截图 2025-04-14 233329.png">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

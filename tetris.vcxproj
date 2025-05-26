@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{d88e56cf-6c31-454c-8d76-80ffd5543abe}</ProjectGuid>
+    <RootNamespace>tetris</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\resource.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="resource1.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\Demo.rc" />
+    <ResourceCompile Include="main.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\Demo.ico" />
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\100.bmp" />
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\BACK.bmp" />
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\BACK22.bmp" />
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\BACKGROUND2.bmp" />
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\back头.bmp" />
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\BEIJING.bmp" />
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\BEILV1.bmp" />
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\BEILV10.bmp" />
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\BEILV101.bmp" />
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\BIAOTI.bmp" />
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\Brick.bmp" />
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\continue.bmp" />
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\END.bmp" />
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\FAST.bmp" />
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\great.bmp" />
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\HELP--.bmp" />
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\MEDIUM.bmp" />
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\OPEN.bmp" />
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\perfect.bmp" />
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\REGRETFUL.bmp" />
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\restart.bmp" />
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\Rock.bmp" />
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\Rock12.bmp" />
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\SHEZHI.bmp" />
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\SLOW.bmp" />
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\Start--.bmp" />
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\Start.bmp" />
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\STUDY.bmp" />
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\屏幕截图 2025-01-04 172431.bmp" />
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\屏幕截图 2025-01-05 234832.bmp" />
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\屏幕截图 2025-01-06 193515.bmp" />
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\屏幕截图 2025-04-14 233329.png" />
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\帮助界面.bmp" />
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\微信图片_20250105232230.bmp" />
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\微信图片_20250106075512.bmp" />
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\微信图片_20250106075522.bmp" />
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\微信图片_20250106080503.bmp" />
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\微信图片_20250106082757.bmp" />
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\标题.bmp" />
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\福宝.bmp" />
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\背景.bmp" />
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\解说.bmp" />
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\res\设置.bmp" />
+    <Image Include="..\..\..\Users\Wangbosheng7\Desktop\俄罗斯方块\src\small.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
